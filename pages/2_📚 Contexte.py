@@ -5,7 +5,7 @@ import pandas as pd
 st.title("Affichage des Données")
 
 # Charger les données
-data_path = "data/processed/full_data_bretagne.csv"
+data_path = "data/processed/data_classification.csv"
 @st.cache_data
 def load_data(path):
     return pd.read_csv(path, sep=";")
