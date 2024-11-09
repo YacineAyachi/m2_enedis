@@ -48,8 +48,6 @@ min_hauteur = int(df['Hauteur_sous-plafond'].min())
 max_hauteur = 2022
 hauteur_sous_plafond = st.slider("Hauteur sous plafond (en m²)", min_value=min_hauteur, max_value=max_hauteur, value=(min_hauteur, max_hauteur))
 
-# Tri par consommation d'énergie (checkbox)
-sort_energy_consumption = st.checkbox("Trier par le coût d'énergie (coût total pour 5 usages)")
 
 # Appliquer les filtres
 df_filtered = df.copy()
