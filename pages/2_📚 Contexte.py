@@ -71,10 +71,6 @@ df_filtered = df_filtered[(df_filtered['Surface_habitable_logement'] >= surface_
 df_filtered = df_filtered[(df_filtered['Hauteur_sous-plafond'] >= hauteur_sous_plafond[0]) & (df_filtered['Hauteur_sous-plafond'] <= hauteur_sous_plafond[1])]
 
 
-# Tri par consommation d'énergie
-if sort_energy_consumption:
-    df_filtered = df_filtered.sort_values(by='Coût_total_5_usages', ascending=False)
-
 # Affichage des résultats filtrés
 st.write("Données filtrées", df_filtered)
 
