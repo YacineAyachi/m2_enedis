@@ -8,10 +8,10 @@
 ```bash
 ├── data
 │   └── processed
-	│   ├── data_classification.csv
-	│   ├── data_map.csv
-	│   ├── data_regression.csv
-	│   └── full_data_bretagne.csv
+│	│   ├── data_classification.csv
+│	│   ├── data_map.csv
+│	│   ├── data_regression.csv
+│	│   └── full_data_bretagne.csv
 ├── image
 │   └── image_contexte.png
 ├── models
@@ -25,7 +25,7 @@
 │   ├── median_imputer_classification.pkl
 │	└── median_imputer_regression.pkl
 ├── pages
-│   ├── 2_📚 Affichage et export des données.py
+│   ├── 2_📚 Affichage et exportation des données.py
 │   ├── 3_🌍 Cartographie.py
 │   ├── 4_🎯 Prédiction de l\'étiquette DPE.py
 │   ├── 5_📈 Prédiction de la consommation en énergie.py
@@ -42,12 +42,30 @@
 └── requirements.txt
 
 ```
+--
+Passons en revue les dossiers intéressants
+--
+```bash
+├── data
+│   └── processed
+```
+Contient les fichiers .csv ayant servis pour l'entraînement et l'évaluation des modèles de Random Forest pour la classification et pour la régression, ainsi que les fichiers permettant la visualisation des données sur l'application web.
 
-#### Installer l'application
+--
+```bash
+├── models
+```
+
+Contient les modèles finaux de classification et de régresion au format .pkl pour une exécution simplifiée sur l'application web.
+
+--
+
+
+### Installer l'application
 
 Dans un terminal :
 
-Clonez le repository (https://github.com/YacineAyachi/m2_enedis):
+Clonez le repository (https://github.com/YacineAyachi/m2_enedis):  
 `git clone https://github.com/YacineAyachi/m2_enedis.git`
 
 Créez un environnement virtuel:
@@ -55,14 +73,14 @@ Si le package `virtualenv` n'est pas encore installé:
 `pip install virtualenv` 
 
 Avec `cd`, allez dans le répertoire où vous souhaitez stocker vos environnements virtuels.
-Dans le terminal, créez un environnement virtuel du nom de `env-enedis` :
+Dans le terminal, créez un environnement virtuel du nom de `env-enedis` :  
 `py -m venv env-enedis`
-Avec `cd`, allez dans le sous-dossier `Scripts` du dossier que vous venez de créer (`env-enedis`), et activez l'environnement virtuel:
+Avec `cd`, allez dans le sous-dossier `Scripts` du dossier que vous venez de créer (`env-enedis`), et activez l'environnement virtuel:  
 `activate.bat`
-Avec `cd`, retournez dans le répertoire que vous avez précédemment cloné et installer les packages et dépendances nécessaires au bon fonctionnement de l'application web:
+Avec `cd`, retournez dans le répertoire que vous avez précédemment cloné et installer les packages et dépendances nécessaires au bon fonctionnement de l'application web:  
 `pip install -r requirements.txt`
 
-Exécutez l'application:
+Exécutez l'application:  
 `streamlit run Accueil.py`
 
 ### Comment utiliser ce projet
