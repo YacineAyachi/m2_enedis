@@ -30,7 +30,7 @@
 │   ├── 4_🎯 Prédiction de l\'étiquette DPE.py
 │   ├── 5_📈 Prédiction de la consommation en énergie.py
 │   ├── 📊 Coût moyen par m² selon les départements.py
-│   ├── 📊 Coût par m² selon l'année de construction.py
+│   ├── 📊 Coût par m² selon l année de construction.py
 │   ├── 📊 Coût par m² selon la surface habitable.py
 │	├── 📊 proportion des classes DPE par département.py
 ├── Accueil.py
