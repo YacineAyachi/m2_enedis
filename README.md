@@ -32,7 +32,7 @@
 │   ├── 📊 Coût moyen par m² selon les départements.py
 │   ├── 📊 Coût par m² selon l année de construction.py
 │   ├── 📊 Coût par m² selon la surface habitable.py
-│	├── 📊 proportion des classes DPE par département.py
+│	└── 📊 proportion des classes DPE par département.py
 ├── Accueil.py
 ├── map_to_html.py
 ├── pipeline.py
