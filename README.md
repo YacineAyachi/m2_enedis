@@ -37,6 +37,7 @@
 ├── map_to_html.py
 ├── pipeline.py
 ├── preprocessing.ipynb
+├── preprocessing_functions.py
 ├── README.md
 └── requirements.txt
 
@@ -50,7 +51,7 @@ Clonez le repository (https://github.com/YacineAyachi/m2_enedis):
 `git clone https://github.com/YacineAyachi/m2_enedis.git`
 
 Créez un environnement virtuel:
-Si le package `virtualenv` n'est pas encore installé:
+Si le package `virtualenv` n'est pas encore installé:  
 `pip install virtualenv` 
 
 Avec `cd`, allez dans le répertoire où vous souhaitez stocker vos environnements virtuels.
