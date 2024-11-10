@@ -30,7 +30,7 @@
 │   ├── 4_🎯 Prédiction de l\'étiquette DPE.py
 │   ├── 5_📈 Prédiction de la consommation en énergie.py
 │   ├── 📊 Coût moyen par m² selon les départements.py
-│   ├── 📊 Coût par m² selon l\'année de construction.py
+│   ├── 📊 Coût par m² selon l'année de construction.py
 │   ├── 📊 Coût par m² selon la surface habitable.py
 │	└── 📊 proportion des classes DPE par département.py
 ├── Accueil.py
@@ -42,23 +42,26 @@
 └── requirements.txt
 
 ```
---
+---
+
 Passons en revue les dossiers intéressants
---
+
+---
 ```bash
 ├── data
 │   └── processed
 ```
 Contient les fichiers .csv ayant servis pour l'entraînement et l'évaluation des modèles de Random Forest pour la classification et pour la régression, ainsi que les fichiers permettant la visualisation des données sur l'application web.
 
---
+---
+
 ```bash
 ├── models
 ```
 
 Contient les modèles finaux de classification et de régresion au format .pkl pour une exécution simplifiée sur l'application web.
 
---
+---
 
 
 ### Installer l'application
