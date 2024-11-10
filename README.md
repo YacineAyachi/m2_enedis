@@ -3,6 +3,7 @@
 - Objectif 2 : prédiction de la consommation énergétique d'un logement
 - Objectif 3 : déploiement d'une application web Streamlit pour la visualisation et la prédiction
 
+---
 ### Contenu du répertoire
 
 ```bash
@@ -89,6 +90,7 @@ Contient les imputateur de données manquantes ainsi que les encodeurs one-hot a
 ```
 Contient les pages de l'application web.
 
+---
 ### Installer l'application
 
 Dans un terminal :
@@ -111,7 +113,7 @@ Avec `cd`, retournez dans le répertoire que vous avez précédemment cloné et 
 Exécutez l'application:  
 `streamlit run Accueil.py`
 
-
+---
 ### Ressources
 
 - Une captation vidéo de ~5mn de l'interface web est disponible sur ce lien YouTube : https://www.youtube.com/watch?v=NIyEpbulisQ
