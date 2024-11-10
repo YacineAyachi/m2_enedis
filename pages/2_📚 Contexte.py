@@ -35,7 +35,7 @@ selected_dpe = st.multiselect("Sélectionner les étiquettes DPE", dpe_options, 
 
 # Filtre par étiquette DPE (multiselect)
 ges_options = df['Etiquette_GES'].unique()  # Valeurs uniques de l'étiquette GES
-selected_ges = st.multiselect("Sélectionner les étiquettes DPE", ges_options, default=ges_options)
+selected_ges = st.multiselect("Sélectionner les étiquettes GES", ges_options, default=ges_options)
 
 
 # Filtre par surface habitable (slider)
