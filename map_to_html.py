@@ -19,10 +19,13 @@ rennes_lat, rennes_lon = 48.1173, -1.6778
 # Créer la carte centrée sur Rennes (Bretagne)
 carte_bretagne = folium.Map(location=[rennes_lat, rennes_lon], zoom_start=8)
 
-# Initialize the MarkerCluster object
+# On crée le dictionnaire d'association d'une couleur à chaque étiquette DPE
+colors={"A":"darkgreen","B":"green","C":"lightgreen","D":"beige","E":"orange","F":"pink","G":"red"}
+
+# On initialise la fonctionnalité MarkerCluster
 marker_cluster = MarkerCluster().add_to(carte_bretagne)
 
-# Add the markers with clustering
+# On ajoute le clustering des marqueurs selon le degré de zoom
 for idx, row in df.iterrows():
     if pd.notna(row['lat']) and pd.notna(row['lon']):
         # Create a popup text for each marker
@@ -30,7 +33,7 @@ for idx, row in df.iterrows():
         
         # Create a marker for each property and add it to the marker cluster
         folium.Marker(
-            location=[row['lat'], row['lon']],
+            location=[row['lat'], row['lon']], icon=folium.Icon(color=colors[row['Etiquette_DPE']], icon='info-sign'),
             popup=popup
         ).add_to(marker_cluster)
 

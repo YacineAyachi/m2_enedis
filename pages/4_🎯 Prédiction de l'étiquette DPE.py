@@ -48,7 +48,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-if st.button("get result"):  
+if st.button("Prédire"):  
     result = pipeline.Pipeline_classification(df)
     st.success(result)
 
