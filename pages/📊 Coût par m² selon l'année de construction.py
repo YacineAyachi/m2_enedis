@@ -44,7 +44,6 @@ df = df[~((df['Coût_total_5_usages'] > 100000) & (df['Type_bâtiment'] == 'mais
 df['Coût/m²']=df['Coût_total_5_usages']/df['Surface_habitable_logement']
 
 # Page de data visualisation =================================================================================================================
-st.header("Tableau de bord")
 st.markdown("Cette page propose une visualisation interactive de différentes données d'intérêt sur la région Bretagne.\n\nDes filtres sont applicables, et il est possible de télécharger les graphiques une fois filtrés.")
 
 
