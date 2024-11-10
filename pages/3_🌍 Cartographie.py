@@ -96,10 +96,6 @@ for idx, row in sampled_df.iterrows():
             popup=popup
         ).add_to(marker_cluster)
 
-# Display the map
-# carte_bretagne
-carte_bretagne
-
 
 # Interface Streamlit
 st.title("Carte Interactive avec échantillon de Données")
