@@ -101,7 +101,7 @@ sns.heatmap(data_quanti.corr())
 
 
     
-![png](image\output_1.png)
+![ScreenShot](image/output_1.png)
     
 
 
@@ -119,7 +119,7 @@ plt.show()
 
 
     
-![png](image\output_2.png)
+![ScreenShot](image/output_2.png)
     
 
 
@@ -132,7 +132,7 @@ plt.show()
 
 
     
-![png](image\output_3.png)
+![ScreenShot](image/output_3.png)
     
 
 
@@ -157,7 +157,7 @@ ax.figure.tight_layout()
 
 
     
-![png](image\output_4.png)
+![ScreenShot](image/output_4.png)
     
 
 
